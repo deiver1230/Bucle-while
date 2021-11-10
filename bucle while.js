@@ -2,10 +2,10 @@ let CantidadTotal;
 let salir = false;
 let cantidadFinal = 0;
 while(cantidadFinal == 0){
-        cantidadTotal = parseInt(prompt("Cuantos dolares quiere ahorrar en total? "));
+        cantidadTotal = parseInt(prompt("¿Cuántos dolares quiere ahorrar en total? "));
         salir = false
     while(salir == false){
-        let ahorro = parseInt(prompt("Cuantos dolares quiere meter en el bolso hoy? "));
+        let ahorro = parseInt(prompt("¿Cuántos dolares quiere meter en el cochinito? "));
         cantidadFinal = ahorro + cantidadFinal;
         console.log(`Llevas ahorrado ${cantidadFinal}`)
         if(ahorro < 0){
